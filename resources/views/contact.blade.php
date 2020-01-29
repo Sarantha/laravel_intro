@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('content')
-    <h1>Contact</h1>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam atque saepe esse nulla quia explicabo. Harum dignissimos cum ratione quibusdam iste odio, quod omnis voluptatum maiores eveniet velit, eius rerum.</p>
+    <h1>Shilpa institute</h1>
+    <p>You can post about your dansala here</p>
 
     {!! Form::open(['url' => 'contact/submit']) !!}
             <div class="row">
@@ -16,7 +16,7 @@
             </div>
             <div class="row">
                 <div class="col">
-                    {{Form::label('message','Message') }}
+                    {{Form::label('message','Post') }}
                     {{Form::textarea('message', '',['class' => 'form-control','placeholder'=>'Text Message'])}}
                 </div>
             </div>

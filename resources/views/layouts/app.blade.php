@@ -2,7 +2,7 @@
 <HTML>
     <head>
         <meta charset="utf-8">
-        <title>UI - Laravel Intro</title>
+        <title>Dansal.lk</title>
         <link rel="stylesheet" href="/css/app.css">
     </head>
     <body>

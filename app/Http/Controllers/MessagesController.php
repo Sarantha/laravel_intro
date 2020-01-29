@@ -18,4 +18,8 @@ class MessagesController extends Controller
         $message->save();
         return redirect('/')->with('status','Message Sent');
     }
+    public function showPost(){
+        $posts = Message::orderBy('created_at','desc')->paginate(3);
+        return view('show')->with(compact('posts'));
+    }
 }
